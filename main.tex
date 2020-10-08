@@ -1,0 +1,152 @@
+
+\documentclass[10pt,a4paper]{altacv}
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=0.7cm,bottom=1.5cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{2F9E43}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{gray} %VividPurple
+\colorlet{accent}{teal}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Mo Gammar}
+  \tagline{Mechanical/Mechtronic/ Mathematical Engineer }
+\photo{4.5cm}{6}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{mabugamm@gmail.com}
+  \phone{+32488564398}
+ \location{Antwerp, Belgium}   
+\linkedin{www.linkedin.com/in/mohamedabugammar/}
+\github{https://github.com/mabugamm}
+
+%   \github{} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want. Extend the right margin by 8cm (=6.8cm marginparwidth + 1.2cm marginparsep)
+\begin{adjustwidth}{}{-8cm}
+\makecvheader
+\end{adjustwidth}
+\cvsection[page1sidebar]{PROFESSIONAL EXPERIENCES}
+\cvevent{Computational Engineer}{KU Leuven}{September 2017 -- August 2020} {Leuven, Belgium}
+\begin{itemize}
+\item Numerical simulation.
+\item Optimization.
+\item Control.
+\item System Identification.
+\end{itemize}
+\divider \divider
+\cvevent{Development Engineer}{Rio Tinto}{September 2014 -- July 2017} {Antwerp, Belgium}
+\divider \divider
+\cvevent{Modelling Engineer}{Research Centre Logistics & Automotive}{September 2012 -- July 2014} {Brussels, Belgium}
+\divider \divider
+\cvevent{Stress Analysis Engineer}{Techspace Aero }{September 2010 -- July 2012} {Liège, Belgium}
+\divider \divider
+\cvevent{R\& D Engineer}{Active Structure Lab }{September 2007 -- July 2010} {Brussels, Belgium}
+\divider \divider
+\cvevent{Test Engineer}{Pharmaceutical and Medical device }{January 2005 -- October 2007} {Dubai, UAE}
+
+% \cvsection{selected  projects}
+
+% \cvevent{Fast FRF calculation through model reduction}{Siemens }{2019-2020 } {Leuven}
+% Within the scope of this project, it is the intent to develop and explore a model reduction technique that allows for fast and efficient calculation of FRF that can e used for Process-compensated resonance testing (PCRT) technique
+% \divider \divider
+
+% \cvevent{Jet Engine Rotor Vibration Control }{Techspace Aero (Safran group) }{ 2012-2013 } {Liège}
+
+% \begin{itemize}
+%     \item 	Design of jet engine vibration control solution,  
+%  \item 	Design control Algorithm for automotive  industry
+%  \item 	Design of passive, semi-passive and active vibration control. 
+%  \item  Create and implement suitable tests to verify designs meet requirements
+%   \item	 Smart structure design.
+%  \item	 Utilize CAD engineering to create and modify mechanical components
+%   \item Design the structure of the first prototype of the rotor in charge of navigating the sides of the disaster.\\
+%     Using: Mathematical properties, CATIA. 
+% \item Design and construction of the arm with 3 degrees of movement. \end{itemize}
+% \divider
+
+% \cvevent{Oil Tank Vibration}{
+% (Toyota Motor Europe- Active Structure Lab)}{ 2015 } {Brussels}
+% The oil tank that was considered for this project was going to installed on regional chariness airplane. The main purpose of this project is focus on the numerical simulation of the behaviors of the structure of the oil tank. The study was carried in both frequency domain and time domain.  An experiment setup was also designed in order to study and test the technology used to solve the vibration and noise into the oil tank I was responsible for:
+
+% \begin{itemize}
+%     \item 3D drawing.
+%     Using: CATIA.
+%     \item Simulation with MATLAB.
+%     \item Control Algorthim  with C++.
+%     \item Supporting in the writing of technical report.
+% \end{itemize}
+
+% \divider
+% \divider 
+% \cvevent{Birzeit Pharmaceutical Company, Validation and  testing Engineer}{
+% (Latin American Robotics Competition - The IEEE Standard Education Kits) - Translated to English}{ 2016 } {ME}
+ 
+% \begin{itemize}
+
+% \item	Generate an Installation Qualification (IO), Operational Qualification (OQ) & Performance Qualification (PQ) validation Protocol for machinery.
+% \item	Execute validation protocols.
+% \item	Identifying design problems and solving them as early in the design cycle as possible.
+% \item	Review and renew of Stander Operating Procedure (SOPs).
+% \item	Performing calibration and maintenance as required.
+% \item	Generate and execute validation protocols Heat and ventilation air conditions (HVAC) system of pharmaceutical company.
+% \item	Maintenance engineer for purified water system and water for injection system.
+% \end{itemize}
+% \divider \divider
+% \cvevent{Active Vibration Isolation of Spacecraft }{
+% Europe Space Agency}{ 2017 } {Brussels}
+% Earth observation satellite and space telescope are subject to jitter generated by Reaction Wheel Assembly (RWA) of the attitude control system. This limits the spatial resolution of the observation instruments. This project considers various options of vibration isolation and evaluate them, especially for their interaction with attitude control of the spacecraft.
+% \divider \divider
+% \cvevent{ 	Building seismic}{
+% Europe Space Agency}{ 2017 } {Brussels}
+% Recently, a number of high-rise buildings and huge bridge towers equipped with control technologies have been constructed. For example, Taipei 101 tower (the 508m high, 101 floors building) is equipped with vibration control techniques, these methods have been sought as countermeasures against strong winds.
+
+
+
+% \divider
+% \cvsection{AWARDS AND LEADERSHIP}
+% \begin{itemize}
+%     \item Graduated first in 2012 class during the ULB College of Engineering’s commencement ceremonies, 2012.
+
+%         \item Participant in StarUp Brussels with Solvay Bussines school, 2013.
+%         \item Participant in BMC(busnies model competicion) with AmicaSoft(software company), 2017.
+% \end{itemize}
+
+
+% \divider
+
+\cvsection{Qualities}
+
+\wheelchart{1.5cm}{0.5cm}{%
+  23/13em/accent!80/Creative, 
+  13/9em/accent!35/High intellectual thinking,
+  10/12em/accent!10/Good organization, 
+  10/12em/accent!35/Commitment,
+  23/8em/accent!75/Truth,
+  10/9em/accent!40/Cooperation,
+10/9em/accent!40/Work autonomously,
+ 13/8em/accent!50/Adaptability}
+
+\end{document}
